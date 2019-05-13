@@ -11,3 +11,7 @@ The tags for first name, surname and email are mapped directly to the dictionary
 import xml.etree.ElementTree as ET
 
 article_file = "exampleResearchArticle.xml"
+
+def get_root(fname):
+    tree = ET.parse(fname)
+    return tree.getroot()
