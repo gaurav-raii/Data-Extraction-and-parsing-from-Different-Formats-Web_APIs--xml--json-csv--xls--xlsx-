@@ -45,3 +45,6 @@ def test():
 
     assert data[0] == solution[0]
     assert data[1]["fnm"] == solution[1]["fnm"]
+    
+
+test()
