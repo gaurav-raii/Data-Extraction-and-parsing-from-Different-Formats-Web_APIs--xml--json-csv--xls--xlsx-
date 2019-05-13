@@ -8,3 +8,6 @@ The task here is to extract data from xml on authors of an article and add it to
 The tags for first name, surname and email are mapped directly to the dictionary key.
 """
 
+import xml.etree.ElementTree as ET
+
+article_file = "exampleResearchArticle.xml"
